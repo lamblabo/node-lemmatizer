@@ -12,7 +12,7 @@ npm install node-lemmatizer
 
 ## Usage
 
-You can use `Lemmatizer.lemmas` or `Lemmatizer.only_lemmas` methods like the follwoing sample in your JavaScript code.
+You can use `Lemmatizer.lemmas` or `Lemmatizer.only_lemmas` methods like the following sample in your JavaScript code.
 
 ```javascript
 // initialize Lemmatizer.

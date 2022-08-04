@@ -44,7 +44,7 @@ lemmatizer.only_lemmas('priorities');     // => [ 'priority' ]
 lemmatizer.only_lemmas('leaves');         // => [ 'leave', 'leaf' ]
 ```
 
-### Major changes from JavaScript Lemmatizer v0.0.2:
+## Major changes from JavaScript Lemmatizer v0.0.2:
 
 - browser-based → node module
 - Underscore.js features → vanilla JS

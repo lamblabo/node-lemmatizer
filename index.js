@@ -1,19 +1,12 @@
 /*
 * node-lemmatizer ©lamblabo
-* https://github.com/~
+* https://github.com/lamblabo/node-lemmatizer
 * MIT License
 * 
 * based on the following project:
 * JavaScript Lemmatizer v0.0.2 by Takafumi Yamano
 * https://github.com/takafumir/javascript-lemmatizer
 * MIT License
-*
-* Major changes:
-* 1. browser-based -> node module
-* 2. Underscore.js features -> vanilla JS
-* 3. localStorage -> store data inside the program
-* 4. XHR -> dynamic require
-* 5. var -> let, to have a better scope
 */
 
 // programStorage

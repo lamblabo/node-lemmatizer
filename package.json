@@ -1,0 +1,24 @@
+{
+  "name": "node-lemmatizer",
+  "version": "1.0.0",
+  "description": "A lemmatization library for Node.js to retrieve a base form from an inflected form word in English.",
+  "main": "index.js",
+  "scripts": {
+    "test": "node testing.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lamblabo/node-lemmatizer.git"
+  },
+  "keywords": [
+    "NLP",
+    "lemmatization",
+    "lemmatizer"
+  ],
+  "author": "lamblabo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lamblabo/node-lemmatizer/issues"
+  },
+  "homepage": "https://github.com/lamblabo/node-lemmatizer#readme"
+}

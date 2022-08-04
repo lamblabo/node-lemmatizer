@@ -1,6 +1,6 @@
 {
   "name": "node-lemmatizer",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A lemmatization library for Node.js to retrieve a base form from an inflected form word in English.",
   "main": "index.js",
   "scripts": {

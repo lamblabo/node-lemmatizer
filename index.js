@@ -36,20 +36,20 @@ if (typeof String.endsWith !== "function") {
 let Lemmatizer = function() {
   this.wn_files = {
     noun: [
-      './dict/index.noun.json',
-      './dict/noun.exc.json'
+      require('./dict/index.noun.json'),
+      require('./dict/noun.exc.json'),
     ],
     verb: [
-      './dict/index.verb.json',
-      './dict/verb.exc.json'
+      require('./dict/index.verb.json'),
+      require('./dict/verb.exc.json'),
     ],
     adj:  [
-      './dict/index.adj.json',
-      './dict/adj.exc.json'
+      require('./dict/index.adj.json'),
+      require('./dict/adj.exc.json'),
     ],
     adv:  [
-      './dict/index.adv.json',
-      './dict/adv.exc.json'
+      require('./dict/index.adv.json'),
+      require('./dict/adv.exc.json'),
     ]
   };
 
@@ -197,9 +197,8 @@ Lemmatizer.prototype = {
     });
   },
 
-  open_file: function(key, file) {
+  open_file: function(key, data) {
     if (!programStorage.getItem(key)) {
-      let data = require(`${file}`);
       this.store_data(key, JSON.stringify(data));
     }
   },
